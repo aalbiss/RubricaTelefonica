@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class Rubrica {
 
-	Vector<Persona> rubrica = new Vector<Persona>();
+	Vector<Persona> rubrica = new Vector<Persona>(10,2);
 
 	public void inserimento() {
 		boolean presente=false;
