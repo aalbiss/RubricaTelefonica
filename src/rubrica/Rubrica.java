@@ -27,6 +27,11 @@ public class Rubrica {
 	}
 
 	public void visualizza() {
+//		for (int i = 0; i < rubrica.size(); i++) {
+//			Persona p = rubrica.get(i);   					Another way to print out the person
+//			p.visualizza();
+//		}
+
 		for (Persona p : rubrica) {
 			p.visualizza();
 		}
